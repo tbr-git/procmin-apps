@@ -1,0 +1,5 @@
+# Run the main method for PVA on CD
+../gradlew run -PchooseMain="hfdd.evaluation.cdrift.PVAOnCDMain" --args="--cdcollections /home/tobias/Documents/temp/logs/concept-drift/EvaluationLogs --resultdirectory /home/tobias/Documents/temp/run-janus-only"
+
+# Run the main method for Difference Visualization Creation 
+gradle run -PchooseMain="hfdd.evaluation.pdfgdiscovery.PDFGMain" --args="--rtfm"
